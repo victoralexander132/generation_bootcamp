@@ -1,59 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Intro HTML</title>
-        <link rel="stylesheet" href="assets/css/styles.css" />
-    </head>
-    <body>
-        <header></header>
-        <main>
-            <!-- Título -->
-            <h1>Título 1</h1>
-            <h2>Título 2</h2>
-            <h3>Título 3</h3>
-            <h4>Título 4</h4>
-            <h5>Título 5</h5>
-            <h6>Título 6</h6>
-            <!-- Artículo -->
-            <hr />
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quas dolores doloremque soluta labore voluptas enim asperiores est corrupti
-                eveniet!
-            </p>
-            <hr />
-            <!-- Etiqueta de enlace -->
-            <a href="https://www.google.com/" target="_blank">Este es un enlace</a>
-            <!-- Etiqueta lista -->
-            <ul type="circle">
-                <li>Hola</li>
-                <li>Adiós</li>
-                <li>Hello</li>
-            </ul>
-            <ol>
-                <li>Hola</li>
-                <li>Adiós</li>
-                <li>Hello</li>
-            </ol>
-            <hr />
-            <!-- Etiqueta de imagen -->
-            <img src="" alt="" />
-            <!-- Etiqueta de span -->
-            <span
-                >Lorem ipsum dolor sit amet <span style="color: blue; background-color: aqua">consectetur</span> adipisicing elit. Nostrum velit fugit dolore
-                impedit quaerat voluptatum similique distinctio molestias ab repellat animi, excepturi facere eius? Animi itaque aperiam eius explicabo impedit?
-            </span>
-            <!-- Etiqueta div -->
-            <div>Texto de prueba</div>
-            <div class="">
-                <div class="saludo" id="saludo_id">Hola</div>
-                <div>
-                    <img src="assets/img/gojo.jpg" alt="Satoru" width="500;" />
-                </div>
-            </div>
-        </main>
-        <footer></footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro HTML</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <!-- Título -->
+      <h1>Título 1</h1>
+      <h2>Título 2</h2>
+      <h3>Título 3</h3>
+      <h4>Título 4</h4>
+      <h5>Título 5</h5>
+      <h6>Título 6</h6>
+      <!-- Artículo -->
+      <hr />
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto recusandae fugit doloremque suscipit aliquid
+        accusamus explicabo, maxime quibusdam nulla cupiditate eum magnam minima amet minus fuga temporibus, quas eos officia eius
+        assumenda asperiores dicta veritatis libero repellat! Odit, nisi reprehenderit dolores explicabo quas vel placeat
+        accusantium unde nulla impedit sapiente repudiandae pariatur facilis voluptatibus ullam, ab nam. Explicabo, voluptatem.
+        Quis asperiores, tenetur quasi deleniti totam neque a sapiente, excepturi accusantium temporibus praesentium? Eos debitis,
+        ab accusamus cumque mollitia nemo delectus voluptatum explicabo. Quos, cum temporibus! Recusandae, cum, dolore eveniet,
+        cumque libero hic corrupti fugiat unde ipsum officia facere atque explicabo vero eum accusamus reprehenderit. Omnis ullam
+        natus cum dolores odit fuga esse culpa voluptates? Esse amet nobis cupiditate praesentium corporis, aspernatur
+        perspiciatis sed consequatur magnam quod harum dolore quaerat qui aliquam eaque corrupti debitis eius ab dicta modi vero
+        commodi ea ratione. Vero aut sequi nesciunt veritatis fugit voluptatum, fugiat ut possimus expedita earum corporis magnam
+        esse quod modi harum officia ullam? Officia omnis alias laudantium voluptatibus, accusantium atque tempore sequi
+        perferendis officiis quas provident eos necessitatibus, blanditiis expedita? Quia, id. Qui tempora id alias totam
+        laboriosam obcaecati tenetur deserunt, perferendis vero, nam harum explicabo nisi praesentium voluptate cum quo.
+      </p>
+      <hr />
+      <!-- Etiqueta de enlace -->
+      <a href="https://www.google.com/" target="_blank">Este es un enlace</a>
+      <a href="templates/repaso.html">Repaso</a>
+      <!-- Moverse a una parte de una página -->
+      <a href="#saludo_id">Moverse a Satoru</a>
+      <a href="#">Sin referencia</a>
+
+      <!-- Enlace para formulario -->
+      <a href="tel:5566769310">
+        <img
+          src="data:image/png;base64,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"
+          width="80px"
+          alt=""
+        />
+      </a>
+
+      <a href="mailto:alexandervictor550@gmail.com">
+        <img
+          src="https://www.creativefabrica.com/wp-content/uploads/2019/04/Mail-icon-by-ahlangraphic-86.jpg"
+          width="80px"
+          alt=""
+        />
+      </a>
+      <!-- Etiqueta lista -->
+      <ul type="circle">
+        <li>Hola</li>
+        <li>Adiós</li>
+        <li>Hello</li>
+      </ul>
+      <ol>
+        <li>Hola</li>
+        <li>Adiós</li>
+        <li>Hello</li>
+      </ol>
+      <hr />
+      <!-- Etiqueta de imagen -->
+      <img src="" alt="" />
+      <!-- Etiqueta de span -->
+      <span
+        >Lorem ipsum dolor sit amet <span style="color: blue; background-color: aqua">consectetur</span> adipisicing elit. Nostrum
+        velit fugit dolore impedit quaerat voluptatum similique distinctio molestias ab repellat animi, excepturi facere eius?
+        Animi itaque aperiam eius explicabo impedit?
+      </span>
+      <!-- Etiqueta div -->
+      <div>Texto de prueba</div>
+      <div class="">
+        <div class="saludo" id="saludo_id">Hola</div>
+        <div>
+          <img src="assets/img/gojo.jpg" alt="Satoru" width="500;" />
+        </div>
+      </div>
+
+      <!-- Ejercicio -->
+      <div>
+          <a href="templates/personal.html">About me</a>
+      </div>
+
+    </main>
+    <footer></footer>
+  </body>
 </html>

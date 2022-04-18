@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Avanzado</title>
+  </head>
+  <body>
+
+    <style>
+        table, tr, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+    <nav>
+      <ul>
+        <li>
+          <a href="#Tablas">Tablas</a>
+        </li>
+      </ul>
+    </nav>
+    <h2 class="" id="Tablas">Tablas</h2>
+    <table>
+      <thead>
+        <!-- Cabecera de la tabla -->
+        <tr>
+          <th>Cabecera</th>
+          <th>Cabecera</th>
+          <th>Cabecera</th>
+        </tr>
+        <!-- Crear una fila -->
+      </thead>
+
+      <tbody> <!-- Cuerpo de la tabla -->
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td rowspan="2">C</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td colspan="2">H</td>
+        </tr>
+        <tr>
+            <td colspan="3">I</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <!-- Pie de la tabla -->
+      </tfoot>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th colspan="4">Recordings of the Sei pezzi per pianoforte
+                </th>
+            </tr>
+            <tr>
+                <th>Year</th>
+                <th>Pianist</th>
+                <th>Label</th>
+                <th>Ref</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1997</td>
+                <td>Konstantin Scherbakov</td>
+                <td>Naxos Records</td>
+                <td>69</td>
+            </tr>
+            <tr>
+                <td>2000</td>
+                <td>Riccardo Sandiford</td>
+                <td>Bongiovanni</td>
+                <td>70</td>
+            </tr>
+            <tr>
+                <td>2016</td>
+                <td>Michele D'Ambrosio</td>
+                <td>Brilliant Classics</td>
+                <td>71</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Giovanna Gatto</td>
+                <td>Toccata Classics</td>
+                <td>72</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table>
+        <theader>
+            <tr>
+                <th colspan="5">Tabla con celdas extendidas</th>
+            </tr>
+        </theader>
+        <tbody>
+            <tr>
+                <td colspan="3">alfa</td>
+                <td>bravo</td>
+                <td rowspan="2">charlie</td>
+            </tr>
+            <tr>
+                <td>delta</td>
+                <td>echo</td>
+                <td>foxtrot</td>
+                <td>golf</td>
+            </tr>
+            <tr>
+                <td>hotel</td>
+                <td rowspan="2" colspan="3">india</td>
+                <td>juliet</td>
+            </tr>
+            <tr>
+                <td>kilo</td>
+                <td>lima</td>
+            </tr>
+            <tr>
+                <td>mike</td>
+                <td>november</td>
+                <td>oscar</td>
+                <td>papa</td>
+                <td>quebec</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- nav>ul>li*5>a -->
+  </body>
+</html>
