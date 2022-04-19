@@ -1,0 +1,42 @@
+body{
+    background-color: green;
+    margin: 0 auto;
+    width: 50%;
+    color: white;
+}
+
+.datos{
+    margin-left: -50px;
+}
+
+
+
+.card-number, .name{
+    margin-top: 30px;
+}
+
+.country{
+    margin-bottom: 30px;
+}
+
+.card-name{
+    margin-bottom: 70px;
+}
+
+.justifyLabel{
+    display: inline-block;
+    width: 100px;
+}
+
+.btn-confirm{
+    width: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    border-top: dashed 1px white;
+    margin-left: -50px;
+}
+
+input{
+    border: red solid 2px;
+}

@@ -1,0 +1,36 @@
+.formulario {
+    background-color: rgb(233, 232, 232);
+    border: 5px solid lightslategray;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fieldColor{
+    background-color: lightcyan;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .6s;
+}
+
+input[type=submit]:hover {
+    transition-timing-function: ease-in-out;
+    border: 0px;
+    background: rgb(140, 100, 100);
+}
+
+.justifyLabel{
+    display: inline-block;
+    width: 150px;
+}
+
+input{
+    border: red solid 1px;
+}

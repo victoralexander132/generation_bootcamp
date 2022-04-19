@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Formularios propios -->
+        <link rel="stylesheet" href="assets/css/formularios.css" />
+        <title>Formularios</title>
+    </head>
+    <body>
+        <!-- <form action="" method="post"> -->
+        <form>
+            <input type="text" placeholder="Nombre" required size="40" /><br />
+            <input type="text" placeholder="Apellido" required /><br />
+            <input type="text" minlength="6" maxlength="10" /><br />
+            <input type="date" placeholder="date" /><br />
+            <input type="month" placeholder="month" /><br />
+            <input type="week" placeholder="week" /><br />
+            <input type="datetime-local" placeholder="datetime-local" /><br />
+            <input type="time" placeholder="time" /><br />
+            <input type="number" min="10" max="50" step="10" placeholder="number" /><br />
+            <input type="password" placeholder="password" /><br />
+            <input type="file" /><br />
+            <input type="range" min="1" max="10" /><br />
+            <input type="checkbox" value="Yes" /><br />
+            <input type="color" id="inputColor" value="#ff0000" /><br />
+            <input type="email" placeholder="email" /><br />
+            <input type="radio" name="n" value="1" />
+            <input type="radio" name="n" value="2" /><br />
+            <select name="menu">
+                <option value="1">Uno</option>
+                <option value="2">Dos</option>
+                <option value="3">Tres</option>
+            </select>
+            <br />
+            <textarea cols="30" rows="10"></textarea> <br />
+            <input type="reset" value="Limpiar" />
+            <input type="submit" value="Enviar" /><br />
+        </form>
+
+        <script>
+            const color = document.querySelector("#inputColor");
+            color.addEventListener("change", (e) => {
+                document.body.style.backgroundColor = e.target.value;
+            });
+        </script>
+
+        <hr />
+        <h1>Formulario</h1>
+        <form class="formulario">
+            <div class="nombre">
+                <label class="justifyLabel" for="nombre">Nombre</label>
+                <input class="fieldColor" type="text" placeholder="Nombre" name="Name" id="nombre" />
+            </div>
+            <div class="apellido">
+                <label class="justifyLabel" for="apellido">Apellido</label>
+                <input class="fieldColor" type="text" id="apellido" placeholder="Apellido" />
+            </div>
+            <div class="password">
+                <label class="justifyLabel" for="contraseña">Contraseña</label>
+                <input class="fieldColor" type="password" id="contraseña" />
+            </div>
+            <div class="mail">
+                <label class="justifyLabel" for="mail">Correo </label>
+                <input class="fieldColor" type="email" name="" id="mail" />
+            </div>
+            <div class="enviar">
+                <input type="submit" value="Enviar" />
+            </div>
+        </form>
+    </body>
+</html>
