@@ -1,0 +1,27 @@
+body {
+    background-color: #C6D9EE;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: end;
+    font-size: 35pt;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.naranja-texto {
+    color: chocolate;
+    font-weight: bold;
+}
+
+.naranja-years {
+    color: darkorange;
+}
+
+.white-green {
+    background-color: white;
+    color: green;
+}
