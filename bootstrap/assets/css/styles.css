@@ -1,0 +1,12 @@
+/* Navbar */
+.img-logo {
+    width          : 60px;
+    object-fit     : cover;
+    object-position: center;
+}
+
+.img-carrusel {
+    height         : calc(100vh  - 66px);
+    object-fit     : cover;
+    object-position: center;
+}
