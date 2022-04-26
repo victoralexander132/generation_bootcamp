@@ -32,13 +32,13 @@
 						<a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Adopta</a>
+						<a class="nav-link" href="#images">Images</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Memes</a>
+						<a class="nav-link" href="#video">Video</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Imágenes</a>
+						<a class="nav-link" href="#adopt">Adopt me</a>
 					</li>
 				</ul>
 			</div>
@@ -47,6 +47,12 @@
 
 	<!-- Carrusel -->
 	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+		<div class="pantalla">
+			<div class="cuadro">
+				<h1>Neko</h1>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus atque suscipit quo vel cumque consequatur quos eligendi nulla recusandae impedit dolores beatae repudiandae at accusamus officia tempora ut, asperiores distinctio.</p>
+			</div>
+		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
 				<img src="https://wallpaperaccess.com/full/235592.jpg"
@@ -84,7 +90,7 @@
 	</div>
 
 	<!-- Images -->
-<div id="images" class="mt-5">
+	<div id="images" class="mt-5">
 	<div class="container">
 		<h2 class="mb-5 text-center">Images</h2>
 		<div class="row row-cols-1 row-cols-md-3">
@@ -142,46 +148,37 @@
 					</div>
 				</div>
 			</div>
-			<div class="col mb-4">
-				<div class="card h-100">
-					<img src="https://static01.nyt.com/images/2021/11/23/business/00cutecats-disinfo-promo/00cutecats-disinfo-promo-facebookJumbo.png" class="card-img-top img-card" alt="...">
-					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-					</div>
+		</div>
+	</div>
+	</div>
+
+	<!-- Video before adopt -->
+	<div id="video" class="bg-dark">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-md p-5">
+					<iframe class="videoIframe" src="https://www.youtube.com/embed/ce0LPDPV5NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="col-md text-white p-5" >
+					<h2>Watch video before adopt</h2>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quis impedit nemo, natus iure voluptates esse unde tempora aliquid quaerat.
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<!-- Video before adopt -->
-<div id="video" class="bg-dark">
-	<div class="container">
-		<div class="row">
-			<div class="col p-5">
-				<iframe class="videoIframe" src="https://www.youtube.com/embed/ce0LPDPV5NE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-			<div class="col text-white p-5" >
-				<h2>Watch video before adopt</h2>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quis impedit nemo, natus iure voluptates esse unde tempora aliquid quaerat consequuntur minus voluptatem inventore libero quos fugit blanditiis molestiae distinctio.
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Adóptame y Formulario-->
+	<!-- Adóptame y Formulario-->
 	<div id="adopt" class="mt-5">
 		<div class="container">
 			<div class="row align-items-center">
 
-				<div class="col bg">
+				<div class="col-md align-self-center bg">
 					<h2>Adóptame</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, quis veritatis. Amet repellat iure explicabo quae eos unde facere earum delectus accusantium. Rerum consequuntur nisi quaerat dolorum quo suscipit in cupiditate at molestiae. Excepturi officiis et similique at quas. Repellendus dicta velit eaque eius at deleniti. Architecto magnam error maiores?</p>
-					<button type="button" class="btn btn-secondary">Saber más</button>
+					<button type="button" class="btn mb-4 btn-secondary">Saber más</button>
 				</div>
 
-				<div class="col bg-dark text-white p-5 rounded-lg">
+				<div class="col col-md bg-dark text-white p-5 rounded-lg">
 					<form>
 						<div class="form-row">
 							<div class="form-group col-md-6">
@@ -236,6 +233,14 @@
 		</div>
 	</div>
 
+	<!-- Footer -->
+	<div class="bg-dark text-white text-center mt-5">
+		<p class="m-0 p-4">Todos los derechos reservados 💕</p>
+	</div>
+
+	<!-- Scrollreveal -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+	<script src="assets/js/scrollReveal.js"></script>
 	<!-- Dependencias de bootstrap -->
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
 		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
