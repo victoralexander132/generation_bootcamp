@@ -25,9 +25,13 @@ console.log(`Tienes ${yearActual - yearBirth} años`); */
 
 // Nivel 3
 
-const yearActual = 2022;
-const monthActual = 4;
-const dayActual = 27;
+const date = new Date();
+const yearActual = date.getFullYear();
+const monthActual = date.getMonth() + 1;
+const dayActual = date.getDate();
+// const yearActual = 2022;
+// const monthActual = 4;
+// const dayActual = 27;
 
 function mostrarDatos() {
   const birth = document.getElementById('year').value;
