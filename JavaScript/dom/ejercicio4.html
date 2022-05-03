@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+    </div>
+    <section id="container">
+        <ul id="ulist">
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ul>
+        <ol>
+            <li class="first">one</li>
+            <li class="second">two</li>
+            <li class="third">three</li>
+        </ol>
+    </section>
+    <div class="footer" id="foot">
+    </div>
+</body>
+
+<script>
+  const $cont = document.getElementById('container');
+  const $cont2 = document.querySelector('#container');
+  const $seconds = document.querySelectorAll('.second');
+  const $third = document.querySelectorAll('.third')[1];
+  const $ulist = document.getElementById('ulist');
+  console.log($cont);
+  console.log($cont2);
+  console.log($seconds);
+  console.log($third);
+  // $cont.textContent = "Hello!";
+  document.getElementById('foot').outerHTML = `<div class="footer main" id='foot'>`;
+  document.getElementById('foot').outerHTML = `<div class="footer" id='foot'>`;
+  const $itemlista = document.createElement('li');
+  $itemlista.textContent = 'four';
+  $ulist.appendChild($itemlista);
+
+</script>
+</html>
